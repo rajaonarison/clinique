@@ -1,0 +1,147 @@
+body {
+	margin: 0;
+	background: rgb(249, 250, 252);
+}
+
+.header {
+	-webkit-transition: 1s;
+	transition: 1s;
+	height: 50px;
+	background-color: rgba(33, 50, 128, 0.554);
+}
+#timer{
+	box-shadow: 0 0 15px black;
+}
+
+
+.navigation-bar {
+	float: left;
+	position: fixed;
+	-webkit-transition: 1.2s;
+	transition: 1.2s;
+	width: 13%;
+	height:100%;
+	margin-left: -11%;
+	background-color: rgba(54, 65, 90, 0.438);
+	border-right: 30px solid rgba(0, 0, 0, 0.479);
+}
+
+.slide-menu {
+	margin-left: 0;
+	border-right: none;
+	border-left: 10px solid rgba(4, 73, 236, 0.479);
+}
+
+.menu-list {
+	margin: 0;
+	padding: 2%;
+}
+.menu-list li:hover{
+	transition:0.4s;
+	cursor: pointer;
+
+	width:90%;	
+}
+.menu-list li {
+	list-style-type: none;
+	text-align: left;
+	padding: 3%;
+
+}
+
+.menu-list li a:hover{
+	transition:0.4s;
+	color:rgb(246, 246, 246);
+}
+.menu-list li a {
+	text-decoration: none;
+	font-weight: bolder;
+	color: rgba(34, 25, 25, 0.698);
+	text-align:left;
+}
+
+
+
+.container-fluid {
+	-webkit-transition: 1s;
+	transition: 1s;
+	width: 87%;
+	margin-left: 13%;
+}
+
+.slide-content {
+	-webkit-transition: 1s;
+	transition: 1s;
+	margin-right: 1%;
+	margin: auto auto auto 2%;
+	width: 98%;
+
+}
+
+.carousel-item img {
+	height: 400px;
+	width: 100%;
+}
+
+/*==============================================================================================*/
+.content-card {
+	margin-top: 3%;
+	text-align: center;
+}
+.notification{
+    background-color: rgba(255, 255, 0, 0.726);
+}
+.declencher {
+    list-style-type: none;
+}
+
+.declencher li {
+	width: 20px;
+	height: 3px;
+	margin: 5px;
+	background-color: black;
+}
+
+.declencheur {
+	transition: 1s;
+	position: absolute;
+	right: -30px;
+	top: 0;
+}
+.card-body p{
+    font-size: 14px;
+}
+.declencheur-slide {
+	transition: 0.8s;
+    display: none;
+}
+
+.content-card .card {
+	transition: 0.8s;
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.79);
+	margin: 2%;
+}
+
+.content-card .card:hover {
+	transition: 0.8s;
+	cursor: pointer;
+	background-color: rgba(69, 104, 184, 0.479);
+	box-shadow: 0px 0px 20px rgba(238, 93, 93, 0.904);
+	
+}
+
+.menu:hover {
+	background-color: rgba(43, 81, 170, 0.746);
+
+}
+#chart-patient{
+	text-align: center;
+}
+#chart-patient .card{
+	display:inline-block;
+	width: 35%;
+	margin:0.5%;
+}
+/* Modal */
+
